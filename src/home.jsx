@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="product-configurator-heading">
       <div className="heading-box">
-        <h1 className="product-heading">A Product Configurator</h1>
+        <h1 className="product-heading">A/B Product Configurator </h1>
 
         <p className="product-description">
 
