@@ -1,0 +1,69 @@
+/* home.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .product-configurator-heading {
+    background-image: url('https://docs.unrealengine.com/4.26/Images/Resources/Templates/ProductConfigurator/PC_Hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* Align content to the top right corner */
+    padding: 40px;
+    width: 100%; /* Make sure the background covers the full width */
+    position: relative; /* Add position relative */
+  }
+  
+  .heading-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the box */
+    width: 90%; /* Set the width of the box to 90% of the screen */
+    max-width: 400px; /* Limit the maximum width of the box */
+    margin-top: 20px; /* Add space between the box and the image */
+    margin-right: auto; /* Move the box towards the left side */
+  }
+  
+  .product-heading {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+  
+  .product-description {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Media query for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .product-configurator-heading {
+      justify-content: flex-end; /* Align content to the top right corner on mobile */
+      padding: 20px; /* Reduce padding for smaller screens */
+      background-size: 70% 100%; /* Adjust background size for mobile */
+    }
+  
+    .heading-box {
+      width: 90%; /* Make the box width wider on smaller screens */
+      max-width: 100%; /* Adjust maximum width for smaller screens */
+      margin-top: 10px; /* Reduce space between the box and the image */
+      margin-right: auto; /* Move the box towards the left side */
+      text-align: center; /* Center align the content */
+    }
+  
+    .product-heading {
+      font-size: 20px; /* Adjust font size for smaller screens */
+      margin-bottom: 5px; /* Adjust space below the heading */
+    }
+  
+    .product-description {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
