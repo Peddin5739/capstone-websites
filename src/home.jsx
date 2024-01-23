@@ -1,22 +1,19 @@
 import React from "react";
-import "./home.css";
+import styles from "./home.module.css";
 
 function Home() {
   return (
-    <div className="product-configurator-heading">
-      <div className="heading-box">
-        <h1 className="product-heading">A/B Product Configurator </h1>
-
-        <p className="product-description">
-
-            
-          A product configurator is a software tool or application that allows
-          customers to customize and personalize a product according to their preferences
-          and requirements. This tool is commonly used by companies that offer customizable
-          or made-to-order products, such as computers, cars, furniture, clothing, and more.
-          The configurator guides customers through a step-by-step process where they can
-          select various features, options, and specifications to create a product that
-          aligns with their specific needs and preferences.
+    <div className={styles.container}>
+      <div className={styles.headingBox}>
+        <h1 className={styles.productHeading}>Optime Subsea DataSphere</h1>
+        <p className={styles.productDescription}>
+          Welcome to 'Subsea DataSphere', our latest project for Spring 2024.
+          We're taking a big step forward in how we handle data from oil and gas
+          operations at sea. Our team is building on a web app created last
+          fall, making it even better. We're adding new tech to show data in
+          real-time and making graphs easier to use and understand. This project
+          is all about making complex offshore data simple and useful for
+          everyone.
         </p>
       </div>
     </div>

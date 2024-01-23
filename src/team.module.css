@@ -1,0 +1,62 @@
+/* Adjust the path below to point to your desired background image */
+.content {
+  background-image: url("https://assets.ey.com/content/dam/ey-sites/ey-com/en_us/topics/oil-and-gas/ey-aerial-view-oil-terminal-is-industrial-facility-for-storage-tank.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.profilesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile {
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover; /* Ensures images are nicely cropped to fit the circle */
+}
+
+.profileName {
+  font-size: 1.2em;
+  color: #283593; /* Adjust color as needed */
+  margin-bottom: 10px;
+}
+
+.linkedinLogo {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .profilesContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
