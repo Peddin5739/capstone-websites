@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./team.module.css";
 import linkedInLogo from "/linkedin-logo.png"; // Ensure this is the correct path
-
+import vamsi from "/vamsi.jpeg";
+import chandan from "/chandan.jpeg";
 function Team() {
   return (
     <div className={styles.content}>
@@ -31,13 +32,13 @@ function Team() {
         {/* Profile 2 */}
         <div className={styles.profile}>
           <img
-            src="path-to-image-2.jpg" // Replace with actual image
+            src={vamsi} // Replace with actual image
             alt="Team Member 2"
             className={styles.profileImage}
           />
-          <h3 className={styles.profileName}>Team Member 2</h3>
+          <h3 className={styles.profileName}>Sai Venkata Vamsi Gorrela</h3>
           <a
-            href="https://www.linkedin.com/in/member2"
+            href="https://www.linkedin.com/in/sai-gorrela/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,13 +53,13 @@ function Team() {
         {/* Profile 3 */}
         <div className={styles.profile}>
           <img
-            src="path-to-image-3.jpg" // Replace with actual image
+            src={chandan} // Replace with actual image
             alt="Team Member 3"
             className={styles.profileImage}
           />
-          <h3 className={styles.profileName}>Team Member 3</h3>
+          <h3 className={styles.profileName}>Chandhan Masireddygari</h3>
           <a
-            href="https://www.linkedin.com/in/member3"
+            href="https://www.linkedin.com/in/chandhan-m/"
             target="_blank"
             rel="noopener noreferrer"
           >

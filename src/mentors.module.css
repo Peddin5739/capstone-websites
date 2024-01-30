@@ -1,7 +1,7 @@
 /* mentors.module.css */
 
 .content {
-  background-image: url("https://assets.ey.com/content/dam/ey-sites/ey-com/en_us/topics/oil-and-gas/ey-aerial-view-oil-terminal-is-industrial-facility-for-storage-tank.jpg"); /* Replace with your background image URL */
+  background-image: url("https://catalog.uhcl.edu/mime/media/12/10/University%20of%20Houston-Clear%20Lake-newsroom-main-template-v2.jpg"); /* Replace with your background image URL */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff; /* For better readability */
+  color: #ebf3eb; /* For better readability */
   box-sizing: border-box; /* To include padding in width and height */
 }
 

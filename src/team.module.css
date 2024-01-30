@@ -1,6 +1,6 @@
 /* Adjust the path below to point to your desired background image */
 .content {
-  background-image: url("https://assets.ey.com/content/dam/ey-sites/ey-com/en_us/topics/oil-and-gas/ey-aerial-view-oil-terminal-is-industrial-facility-for-storage-tank.jpg");
+  background-image: url("https://catalog.uhcl.edu/mime/media/12/10/University%20of%20Houston-Clear%20Lake-newsroom-main-template-v2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  color: aliceblue;
 }
 
 .profilesContainer {

@@ -1,7 +1,7 @@
 /* home.module.css */
 
 .container {
-  background-image: url("https://assets.ey.com/content/dam/ey-sites/ey-com/en_us/topics/oil-and-gas/ey-aerial-view-oil-terminal-is-industrial-facility-for-storage-tank.jpg"); /* Replace with your image path */
+  background-image: url("https://catalog.uhcl.edu/mime/media/12/10/University%20of%20Houston-Clear%20Lake-newsroom-main-template-v2.jpg"); /* Replace with your image path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -25,7 +25,7 @@
 .productHeading {
   font-size: 2.5rem;
   margin: 0;
-  color: #ffd700; /* Golden color for the heading */
+  color: rgb(55, 155, 55); /* Golden color for the heading */
 }
 
 .productDescription {
