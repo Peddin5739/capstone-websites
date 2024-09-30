@@ -1,6 +1,6 @@
 let meetingdata = [
   {
-    MeetingDate: "jan 19  , 2024",
+    MeetingDate: "jan 20  , 2024",
     Start_Time: "11 AM",
     "End Time": "12 PM",
     Attendance: "Mounika Preethi, Member2, Member3, Member4",
